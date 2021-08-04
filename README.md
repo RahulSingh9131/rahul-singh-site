@@ -1,3 +1,4 @@
-# Basic site of RAHUL SINGH.
+# MY PORTFOLIO.
 
-hello!! welcome to my Posrtfolio.it's nothing just my fun little basic site which contains information about me in detail.
+hello!! welcome to my Posrtfolio.in this portfolio i have added the projects that i did recently.
+currently i am familiar with HTML,CSS and JS.
