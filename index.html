@@ -5,18 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>ABOUT ME</h1>
-    <P>
-        NAME-RAHUL SINGH
-        AGE-23
-        QUALIFICATION- BTECH(MECH)
-        COLLEGE=RJIT(GWALIOR)
-        D.O.B=31/01/1998
-        HOBBIES= my new hobby is learning Web-development.
-        I have worked on two CLI apps.one is a know-me quiz and the other one is about contries captital quiz.
-        Fav. Books= Shoe dog,kite runner,rich dad vs. poor dad,zero to hero.
-    </P>
+    <h1>welcome to my component library</h1>
+    <p>currently i am making my portfolio by using this component library. </p>
+
+    <hr>
+    <h2>@typography</h2>
+    <h1>this one is bigger heading</h1>
+    <h2>this one is smaller heading</h2>
+    <p>this is normal size of text in HTML</p>
+    <P>this para will contain a <strong>bold</strong>text.</P>
+    <hr>
+    <h2>@container</h2>
+    <h3>fluid container</h3>
+    <div class="container">this is a fluid container and it will go till the end of the page</div>
+
+    <h3>center container</h3>
+    <div class="container container-center">this is center container and it will go till the specified width.</div>
+
+    <hr>
+    <h2>@links</h2>
+    <a class=" link primary-link" href="/">primary link</a>
+    <a class=" link secondary-link" href="/">secondary link</a>
+
+    <hr>
+    <h2>@lists</h2>
+    <h3> unordered list.</h3>
+    <ul class="list-non-bullet">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ul>
+    <h3>unordered inline list.</h3>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">inline item one</li>
+        <li class="list-item-inline">inline item two</li>
+        <li class="list-item-inline">inline item three</li>
+    </ul>
+    <h3>reverse ordered list</h3>
+    <ol reversed>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+    </ol>
+
+    <hr>
+    <h2>@nav</h2>
+    <nav class="navigation">
+        <div class="navigation-brand">I Am Brand</div>
+        <ul>
+            <li>
+                <a href="/">home</a>
+            </li>
+            <li>
+                <a href="/">products</a>
+            </li>
+            <li>
+                <a href="/">about</a>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+    <h2>@header</h2>
+    <header>
+        <img src="images/header-image.svg" alt="">
+        <h3>heading inside header</h3>
+    </header>
+    <hr>
+
+    <h2>@section</h2>
+    <section>
+        <h3>white section</h3>
+        <p>this will have white background.</p>
+    </section>
+    <section>
+        <h3>off white section</h3>
+        <p>this will have grey background.</p>
+    </section>
+
+    <hr>
+    <h2>@footer</h2>
+    <footer>
+        <div>some small heading inside footer.</div>
+        <ul>
+            <li>socialOne</li>
+            <li>socialTwo</li>
+            <li>socialThree</li>
+        </ul>
+    </footer>
+
+
+
 </body>
 </html>
