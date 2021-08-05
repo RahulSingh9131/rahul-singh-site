@@ -105,6 +105,7 @@ hr{
     padding: 1rem 1rem;
     text-align: center;
     color: white;
+    border-top-left-radius: 1rem;
 }
 .footer .link{
     color: white;
