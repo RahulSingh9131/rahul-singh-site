@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Source+Serif+Pro:ital,wght@0,300;0,600;1,200;1,300&display=swap');
 
 :root{
-    --primary-color: #3C7761;
+    --primary-color:#B91C1C;
     --head-color: #831843;
-    --off-light:#A7F3D0;
+    --off-light:#FEF2F2;
 }
 body{
     font-family: 'Cairo', sans-serif;
@@ -16,6 +16,7 @@ hr{
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-top: 3rem;
 }
 
 .container-center{
@@ -73,6 +74,7 @@ hr{
 /** header **/
 .hero{
     padding: 2rem;
+    padding-top: 8rem;
 }
 .hero .hero-img{
     max-width: 350px;
