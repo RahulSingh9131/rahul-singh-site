@@ -35,8 +35,8 @@ hr{
     color: white;
 }
 .secondary-link{
-    color: black;
-    border: 1px solid black;
+    color: var(--primary-color);
+    border: 1px solid  var(--primary-color);
     border-radius: 0.5rem;
 }
 
