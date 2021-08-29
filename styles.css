@@ -7,11 +7,14 @@
 }
 body{
     font-family: 'Cairo', sans-serif;
+    margin: 0px auto;
+    width: 100%;
 }
 
 hr{
     margin: 2rem 0rem;
 }
+
 /** css for container **/
 .container{
     padding-left: 1rem;
@@ -109,7 +112,7 @@ hr{
 /** footer **/
 .footer{
     background-color: var(--primary-color);
-    padding: 1rem 1rem;
+    padding: 1rem;
     text-align: center;
     color: white;
     border-top-left-radius: 1rem;
@@ -126,7 +129,8 @@ hr{
 }
 @media (max-width:410px){
     body{
-        
+        margin: 0px auto;
+        width: 100%;
     }
     .list-non-bullet{
         display:flex;
@@ -134,10 +138,12 @@ hr{
         padding: 0rem 0.5rem;
     }
     .navigation{
-       width: max-content;
+       max-width: 90%;
+       width: 100%;
     }
     .footer{
-        width: max-content;
+        max-width: 90%;
+        width: 100%;
     }
     .hero .hero-img{
        width: 250px;
@@ -148,7 +154,7 @@ hr{
         flex-direction: column;
         padding: 0.5rem 0.5rem;
         width: 230px;
-        align-items: center;
+        margin: 1rem auto;
     }
     
 }
